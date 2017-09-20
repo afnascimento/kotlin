@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Spotify Api</string>
+
+    <!-- Menu -->
+    <string name="menu_search">Procurar Artista</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Artistas</string>
+
+    <string name="title_activity_sms">Contato SMS</string>
+
+    <string name="hint_et_mensagem">Mensagem de texto</string>
+    <string name="explain_sms_activity">
+        Na mensagem de texto informe: o assunto principal, seu melhor email e um número
+        para contato. Pois assim entrarei em contato contigo.
+    </string>
+    <string name="enviar_button">Enviar</string>
+
+    <!-- Dialog Input Artist By Search -->
+    <string name="dlg_input_search_title">Procurar</string>
+    <string name="dlg_input_search_content">Informe o Artista</string>
+</resources>

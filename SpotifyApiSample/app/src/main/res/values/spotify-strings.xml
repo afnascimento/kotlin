@@ -1,0 +1,4 @@
+<resources>
+    <string name="com_spotify_sdk_redirect_scheme">bestapp</string>
+    <string name="com_spotify_sdk_redirect_host">ismyapp</string>
+</resources>
