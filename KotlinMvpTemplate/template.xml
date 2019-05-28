@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<template
+    format="1"
+    revision="1"
+    name="MVP activity"
+    description="Creates a new MVP activity">
+
+	<category value="Other"/>
+	
+	<parameter
+        id="featureName"
+        name="Activity Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Task"
+        help="The name of the MVP activity to create, e.g. 'Task'." />
+		
+	<parameter
+        id="basePackageName"
+        name="Base Package Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Base"
+        help="Example: com.organization.project.ui.base.*" />
+		
+	<parameter
+        id="dataPackageName"
+        name="Data Package Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Base"
+        help="Example: com.organization.project.data.*" />
+		
+	<parameter
+        id="daggerPackageName"
+        name="Dagger Package Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Base"
+        help="Example: com.organization.project.dagger.*" />
+		
+	<parameter
+        id="superClass"
+        name="Class Extend Activity"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Base"
+        help="Example: AppCompatActivity" />
+
+	<globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
